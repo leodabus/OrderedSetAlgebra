@@ -1,0 +1,6 @@
+framework module OrderedSetAlgebra {
+  umbrella header "OrderedSetAlgebra-umbrella.h"
+
+  export *
+  module * { export * }
+}

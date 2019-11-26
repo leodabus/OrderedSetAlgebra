@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB991615A246C5DBB9A61E74C1E15D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		456B3ED2238DA97A00071A7A /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B3ED1238DA97A00071A7A /* OrderedSet.swift */; };
+		B0DE2BB13FEFAC9084C81F71CB463D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ED74CF42A91AB407C875ED1ACE960957 /* Pods-OrderedSetAlgebra_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 487ED27C6511D3A83F6AC1EE0E6CF054 /* Pods-OrderedSetAlgebra_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDA411C4675D1C5F436B6C446F510FC1 /* OrderedSetAlgebra-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2096969F9493AF05B34EE916912A77A7 /* OrderedSetAlgebra-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB8A639905F3AAA5E18C6E15657F1DF /* OrderedSetAlgebra-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E628F30230CF3F02F4A6B1E629C3CA /* OrderedSetAlgebra-dummy.m */; };
+		FAFC298855C547F613833B336B2D3C64 /* Pods-OrderedSetAlgebra_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C153D05FF6599A360E8C1C58E6AD90 /* Pods-OrderedSetAlgebra_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51CF4D8D3F333CE02349F2D29B364019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F56AE1AE4AE772058BBE2A31DD384DF;
+			remoteInfo = OrderedSetAlgebra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0115D69908691B14E0EFDD9A0582E7B8 /* OrderedSetAlgebra.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OrderedSetAlgebra.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		03C153D05FF6599A360E8C1C58E6AD90 /* Pods-OrderedSetAlgebra_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrderedSetAlgebra_Tests-dummy.m"; sourceTree = "<group>"; };
+		0D2ACD9A3B6447AFBF0CE23C982B5157 /* OrderedSetAlgebra-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderedSetAlgebra-prefix.pch"; sourceTree = "<group>"; };
+		2096969F9493AF05B34EE916912A77A7 /* OrderedSetAlgebra-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderedSetAlgebra-umbrella.h"; sourceTree = "<group>"; };
+		2A211C0FDFDC62282B2C0596E31F4F4E /* Pods-OrderedSetAlgebra_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderedSetAlgebra_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C0FED15607FA02FECC9C88FCD5A123D /* Pods-OrderedSetAlgebra_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrderedSetAlgebra_Tests.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33E628F30230CF3F02F4A6B1E629C3CA /* OrderedSetAlgebra-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrderedSetAlgebra-dummy.m"; sourceTree = "<group>"; };
+		456B3ED1238DA97A00071A7A /* OrderedSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderedSet.swift; path = OrderedSetAlgebra/Classes/OrderedSet.swift; sourceTree = "<group>"; };
+		487ED27C6511D3A83F6AC1EE0E6CF054 /* Pods-OrderedSetAlgebra_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrderedSetAlgebra_Tests-umbrella.h"; sourceTree = "<group>"; };
+		74FBA52FB6B99DB8877AA25C6E8DF172 /* OrderedSetAlgebra.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderedSetAlgebra.xcconfig; sourceTree = "<group>"; };
+		757F89A3DE3D4649A77DE0D1DA10EEEA /* OrderedSetAlgebra.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OrderedSetAlgebra.modulemap; sourceTree = "<group>"; };
+		7B58FF16E6E1F0E59463B6BCDAB1F0DB /* OrderedSetAlgebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedSetAlgebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADF42F10DD77384545EF7777367639A /* Pods-OrderedSetAlgebra_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrderedSetAlgebra_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9BC577E13913943FF47D9E26AC187A6C /* Pods-OrderedSetAlgebra_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrderedSetAlgebra_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9C16082A7F0409352DE463B5DFFF2397 /* OrderedSetAlgebra-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OrderedSetAlgebra-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24357A253DF3A75BFED110F5D308AA3 /* Pods-OrderedSetAlgebra_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrderedSetAlgebra_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C59872A602378DEACFA4E194445051D2 /* Pods-OrderedSetAlgebra_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrderedSetAlgebra_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3C9834D80B022F67B4220EEC45F0A38 /* Pods_OrderedSetAlgebra_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrderedSetAlgebra_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE06DE4DE2F38A67D2BE777496D1E54C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F2D03750140396652F376E02E783CB4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F9B156F5780F4B319AC2CBAF46FBC96C /* Pods-OrderedSetAlgebra_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrderedSetAlgebra_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BEBA26CA8F46755109632A34D36ABFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB991615A246C5DBB9A61E74C1E15D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DF0E7B5778C26B6D69C4E9C3FE46ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DE2BB13FEFAC9084C81F71CB463D13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060445ABFD0B485677E6196262901CA1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6633FDC7E2574CC5ABB7A7EA72638272 /* OrderedSetAlgebra */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		06FE84145ACD35810B521214AC77D0E2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DE06DE4DE2F38A67D2BE777496D1E54C /* LICENSE */,
+				0115D69908691B14E0EFDD9A0582E7B8 /* OrderedSetAlgebra.podspec */,
+				F2D03750140396652F376E02E783CB4E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		642EAFD0E41AAB4AE29CB716896194AD /* Pods-OrderedSetAlgebra_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C0FED15607FA02FECC9C88FCD5A123D /* Pods-OrderedSetAlgebra_Tests.modulemap */,
+				C59872A602378DEACFA4E194445051D2 /* Pods-OrderedSetAlgebra_Tests-acknowledgements.markdown */,
+				8ADF42F10DD77384545EF7777367639A /* Pods-OrderedSetAlgebra_Tests-acknowledgements.plist */,
+				03C153D05FF6599A360E8C1C58E6AD90 /* Pods-OrderedSetAlgebra_Tests-dummy.m */,
+				9BC577E13913943FF47D9E26AC187A6C /* Pods-OrderedSetAlgebra_Tests-frameworks.sh */,
+				F9B156F5780F4B319AC2CBAF46FBC96C /* Pods-OrderedSetAlgebra_Tests-Info.plist */,
+				487ED27C6511D3A83F6AC1EE0E6CF054 /* Pods-OrderedSetAlgebra_Tests-umbrella.h */,
+				2A211C0FDFDC62282B2C0596E31F4F4E /* Pods-OrderedSetAlgebra_Tests.debug.xcconfig */,
+				A24357A253DF3A75BFED110F5D308AA3 /* Pods-OrderedSetAlgebra_Tests.release.xcconfig */,
+			);
+			name = "Pods-OrderedSetAlgebra_Tests";
+			path = "Target Support Files/Pods-OrderedSetAlgebra_Tests";
+			sourceTree = "<group>";
+		};
+		6633FDC7E2574CC5ABB7A7EA72638272 /* OrderedSetAlgebra */ = {
+			isa = PBXGroup;
+			children = (
+				456B3ED1238DA97A00071A7A /* OrderedSet.swift */,
+				06FE84145ACD35810B521214AC77D0E2 /* Pod */,
+				E72D5634992313CF07091C5C152D6E2F /* Support Files */,
+			);
+			name = OrderedSetAlgebra;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		71586049DEE116A86401B4D70ADC7399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B58FF16E6E1F0E59463B6BCDAB1F0DB /* OrderedSetAlgebra.framework */,
+				D3C9834D80B022F67B4220EEC45F0A38 /* Pods_OrderedSetAlgebra_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE11A368A8B7EEC5875E7E0F3CABB51 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				642EAFD0E41AAB4AE29CB716896194AD /* Pods-OrderedSetAlgebra_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				060445ABFD0B485677E6196262901CA1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				71586049DEE116A86401B4D70ADC7399 /* Products */,
+				7CE11A368A8B7EEC5875E7E0F3CABB51 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72D5634992313CF07091C5C152D6E2F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				757F89A3DE3D4649A77DE0D1DA10EEEA /* OrderedSetAlgebra.modulemap */,
+				74FBA52FB6B99DB8877AA25C6E8DF172 /* OrderedSetAlgebra.xcconfig */,
+				33E628F30230CF3F02F4A6B1E629C3CA /* OrderedSetAlgebra-dummy.m */,
+				9C16082A7F0409352DE463B5DFFF2397 /* OrderedSetAlgebra-Info.plist */,
+				0D2ACD9A3B6447AFBF0CE23C982B5157 /* OrderedSetAlgebra-prefix.pch */,
+				2096969F9493AF05B34EE916912A77A7 /* OrderedSetAlgebra-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OrderedSetAlgebra";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CBCCD578A3591DB8D3B8BE880A97114 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED74CF42A91AB407C875ED1ACE960957 /* Pods-OrderedSetAlgebra_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9D7EF985D3D7D1B3CBE6316B497F8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA411C4675D1C5F436B6C446F510FC1 /* OrderedSetAlgebra-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		120DB5714E351FD710DC971F73A55B12 /* Pods-OrderedSetAlgebra_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D8BE700B206C2A5F428ED757AD85ED /* Build configuration list for PBXNativeTarget "Pods-OrderedSetAlgebra_Tests" */;
+			buildPhases = (
+				1CBCCD578A3591DB8D3B8BE880A97114 /* Headers */,
+				014E9B65C5A063258A76022D4CA06C7A /* Sources */,
+				A1DF0E7B5778C26B6D69C4E9C3FE46ED /* Frameworks */,
+				2CC12A5BC046E4453E180ABB94E0778F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B471C1730EFD9BB663E5240556F6ACF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-OrderedSetAlgebra_Tests";
+			productName = "Pods-OrderedSetAlgebra_Tests";
+			productReference = D3C9834D80B022F67B4220EEC45F0A38 /* Pods_OrderedSetAlgebra_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F56AE1AE4AE772058BBE2A31DD384DF /* OrderedSetAlgebra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33C2519A5E1113E274BC48B537A9540 /* Build configuration list for PBXNativeTarget "OrderedSetAlgebra" */;
+			buildPhases = (
+				CF9D7EF985D3D7D1B3CBE6316B497F8C /* Headers */,
+				F29C432306AE4D8FAD63E34398F1B223 /* Sources */,
+				4BEBA26CA8F46755109632A34D36ABFB /* Frameworks */,
+				7FD6CFD62D23C3C0AD2FB66C76CE541B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderedSetAlgebra;
+			productName = OrderedSetAlgebra;
+			productReference = 7B58FF16E6E1F0E59463B6BCDAB1F0DB /* OrderedSetAlgebra.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					1F56AE1AE4AE772058BBE2A31DD384DF = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 71586049DEE116A86401B4D70ADC7399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F56AE1AE4AE772058BBE2A31DD384DF /* OrderedSetAlgebra */,
+				120DB5714E351FD710DC971F73A55B12 /* Pods-OrderedSetAlgebra_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CC12A5BC046E4453E180ABB94E0778F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD6CFD62D23C3C0AD2FB66C76CE541B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		014E9B65C5A063258A76022D4CA06C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFC298855C547F613833B336B2D3C64 /* Pods-OrderedSetAlgebra_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29C432306AE4D8FAD63E34398F1B223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456B3ED2238DA97A00071A7A /* OrderedSet.swift in Sources */,
+				EEB8A639905F3AAA5E18C6E15657F1DF /* OrderedSetAlgebra-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B471C1730EFD9BB663E5240556F6ACF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderedSetAlgebra;
+			target = 1F56AE1AE4AE772058BBE2A31DD384DF /* OrderedSetAlgebra */;
+			targetProxy = 51CF4D8D3F333CE02349F2D29B364019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27E7F176910CF57E02C22E87EAA88156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24357A253DF3A75BFED110F5D308AA3 /* Pods-OrderedSetAlgebra_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderedSetAlgebra_Tests/Pods-OrderedSetAlgebra_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderedSetAlgebra_Tests/Pods-OrderedSetAlgebra_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		334D429BDB8EACAEF2B772EC9E6E709E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FBA52FB6B99DB8877AA25C6E8DF172 /* OrderedSetAlgebra.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderedSetAlgebra/OrderedSetAlgebra-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderedSetAlgebra/OrderedSetAlgebra-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrderedSetAlgebra/OrderedSetAlgebra.modulemap";
+				PRODUCT_MODULE_NAME = OrderedSetAlgebra;
+				PRODUCT_NAME = OrderedSetAlgebra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77E013B693AAB4E01F86FF9607F119E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FBA52FB6B99DB8877AA25C6E8DF172 /* OrderedSetAlgebra.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderedSetAlgebra/OrderedSetAlgebra-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderedSetAlgebra/OrderedSetAlgebra-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrderedSetAlgebra/OrderedSetAlgebra.modulemap";
+				PRODUCT_MODULE_NAME = OrderedSetAlgebra;
+				PRODUCT_NAME = OrderedSetAlgebra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1D25399757CAAAD6250C1E08B4ED0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A211C0FDFDC62282B2C0596E31F4F4E /* Pods-OrderedSetAlgebra_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OrderedSetAlgebra_Tests/Pods-OrderedSetAlgebra_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OrderedSetAlgebra_Tests/Pods-OrderedSetAlgebra_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B33C2519A5E1113E274BC48B537A9540 /* Build configuration list for PBXNativeTarget "OrderedSetAlgebra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334D429BDB8EACAEF2B772EC9E6E709E /* Debug */,
+				77E013B693AAB4E01F86FF9607F119E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D8BE700B206C2A5F428ED757AD85ED /* Build configuration list for PBXNativeTarget "Pods-OrderedSetAlgebra_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D25399757CAAAD6250C1E08B4ED0CE /* Debug */,
+				27E7F176910CF57E02C22E87EAA88156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

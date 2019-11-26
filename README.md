@@ -20,9 +20,25 @@ it, simply add the following line to your Podfile:
 pod 'OrderedSetAlgebra'
 ```
 
+## Usage
+
+```
+var ordereSet1: OrderedSet = [1,2,3,4,5,6,1,2,3]  // [1, 2, 3, 4, 5, 6]
+var ordereSet2: OrderedSet = [4,5,6,7,8,9,7,8,9]  // [4, 5, 6, 7, 8, 9]
+
+ordereSet1 == ordereSet2                     // false
+ordereSet1.union(ordereSet2)                 // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+ordereSet1.intersection(ordereSet2)          // [4, 5, 6]
+ordereSet1.symmetricDifference(ordereSet2)   // [1, 2, 3, 7, 8, 9]
+
+ordereSet1.subtract(ordereSet2)              // [1, 2, 3]
+ordereSet2.popLast()                         // 9
+```
+
 ## Author
 
-leodabus, leodabus@gmail.com
+Leonardo Dabus, leodabus@gmail.com
 
 ## License
 

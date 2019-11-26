@@ -1,0 +1,16 @@
+PODS:
+  - OrderedSetAlgebra (0.1.0)
+
+DEPENDENCIES:
+  - OrderedSetAlgebra (from `../`)
+
+EXTERNAL SOURCES:
+  OrderedSetAlgebra:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OrderedSetAlgebra: b20e6e4a15514ecf91c7157da9cafc1f7fd8a6b1
+
+PODFILE CHECKSUM: fd8ca99a168341ab6f408c34a576d329e3fdb7e7
+
+COCOAPODS: 1.8.4
