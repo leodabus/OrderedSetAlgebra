@@ -1,0 +1,6 @@
+use_frameworks!
+target 'OrderedSetAlgebra_Tests' do
+  pod 'OrderedSetAlgebra', :path => '../'
+  
+  
+end
